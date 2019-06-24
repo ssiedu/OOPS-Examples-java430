@@ -27,10 +27,12 @@ public class BankAccount {
        System.out.println(ano+","+name+","+balance);
     }
     
-    
-    public void setData(int a, String b, int c){
-        ano=a;
-        name=b;
+    public BankAccount(int x, String y){
+        ano=x;
+        name=y;
+    }
+    public BankAccount(int a, String b, int c){
+        this(a,b);
         balance=balance+c;
         totalCash=totalCash+c;
     }
