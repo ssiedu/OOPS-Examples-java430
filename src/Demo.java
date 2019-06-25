@@ -1,14 +1,32 @@
 
 public class Demo {
-
     static Demo d1;
-
     private int x, y;
 
     public Demo(int a, int b) {
         x = a;
         y = b;
     }
+    
+    //needs to compare two objects
+    public boolean isEquals(Demo obj){
+    
+            if(x==obj.x && y==obj.y){
+                return true;
+            }else{
+                return false;
+            }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     public static void main(String args[]) {
         new Demo(10, 20);

@@ -27,14 +27,14 @@ public class BankAccount {
        System.out.println(ano+","+name+","+balance);
     }
     
-    public BankAccount(int x, String y){
-        ano=x;
-        name=y;
+    public BankAccount(int ano, String name){
+        this.ano=ano;
+        this.name=name;
     }
-    public BankAccount(int a, String b, int c){
-        this(a,b);
-        balance=balance+c;
-        totalCash=totalCash+c;
+    public BankAccount(int ano, String name, int balance){
+        this(ano,name);
+        this.balance=this.balance+balance;
+        totalCash=totalCash+balance;
     }
 }
 
