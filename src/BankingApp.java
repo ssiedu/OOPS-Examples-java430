@@ -16,7 +16,7 @@ public class BankingApp {
         ac5.showData();
 
         BankAccount.showAvg(ac1, ac2);
-        BankAccount.showAvg(ac1, ac2, ac3);
+        BankAccount.showAvg(ac1, ac2, ac3);//{ac1,ac2,ac3}
         BankAccount.showAvg(ac1, ac2, ac3, ac4);
         BankAccount.showAvg(ac1, ac2, ac3, ac4, ac5);
 
